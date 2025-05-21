@@ -2,7 +2,6 @@
 Recipe Management system
 C++ Program Report: Recipe Management System
 
-
 Overview
 
 This C++ program implements a simple Recipe Management System that allows a user to input multiple recipes, store their ingredients and instructions, and display the saved recipes. It uses object-oriented programming principles like encapsulation, composition, and abstraction.
@@ -368,7 +367,3 @@ Split classes and main function into separate files for maintainability.
 Conclusion
 
 This C++ program is a functional and cleanly designed introduction to object-oriented programming through a practical recipe management application. With minor enhancements, it can evolve into a full-featured culinary assistant.
-
-
-
-
