@@ -371,7 +371,4 @@ This C++ program is a functional and cleanly designed introduction to object-ori
 
 
 
-Let me know if you need a PDF version or enhancements like diagrams or file handling!
-
-4o
 
