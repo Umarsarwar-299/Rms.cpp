@@ -355,6 +355,96 @@ Modularity:
 Split classes and main function into separate files for maintainability.
 
 
+         Key Features:
+Composition:
+
+A Recipe has a collection of Ingredient objects.
+
+A User has a collection of Recipe objects.
+
+A MealPlan has a Recipe.
+
+This mirrors real-world relationships well.
+
+2. Class Interaction and Modularity:
+
+The code modularizes functionality cleanly:
+
+Ingredient handles ingredient data.
+
+Recipe builds on ingredients and instructions.
+
+User acts as a container for saved recipes.
+
+MealPlan (although not used in main) can be used to assign recipes to days—extending functionality.
+
+3. Use of Vectors for Dynamic Storage:
+
+Dynamic arrays via vector allow for scalable handling of ingredients and recipes without predefined limits.
+
+4. Constructor Overloading and Default Constructors:
+
+Several classes use both default constructors and parameterized constructors, showcasing constructor flexibility in C++.
+
+5. Const Correctness in Member Functions:
+
+Functions like display() and getTitle() are marked const, indicating they don't modify the object—an important C++ best practice.
+
+6. User Interaction with I/O:
+
+Combines user input (cin, getline) to build dynamic data structures based on runtime input.
+
+Summary: What’s New / Valuable
+Real-world modeling using OOP.
+
+Composition of objects.
+
+Input-driven object creation.
+
+Clear use of vectors and const correctness.
+
+Good design pattern for a mini food/meal planning application.
+
+Limitations:
+
+1.	Lack of Input Validation:
+
+Issue: There is no validation for user input. Entering invalid input (like a letter instead of a number) could cause the program to misbehave or crash.
+
+Improvement: Add checks using cin.fail() and clear the input buffer.
+
+2.	No Persistent Storage:
+
+Issue: All data exists only in memory. Once the program ends, all input is lost.
+
+Improvement: Implement file I/O or a database to save/load user data, recipes, and meal plans.
+
+           3.Single User Support:
+
+Issue: The program only supports one hardcoded user ("Alice").
+
+Improvement: Allow dynamic user creation and login support for multiple users.
+
+4.No Editing or Deletion:
+
+Issue: Recipes and ingredients cannot be edited or deleted once entered.
+
+Improvement: Add functionality to update or remove recipes and ingredients.
+
+5. Minimal Meal Plan Functionality:
+
+Issue: The MealPlan class exists but is not integrated into main() or user interaction.
+
+Improvement: Allow users to assign saved recipes to days of the week and view their meal plan.
+
+
+6. No Data Encapsulation for Meal Plans:
+
+Issue: Users cannot manage or view meal plans linked to them.
+
+Improvement: Connect MealPlan to the User class, allowing users to manage multiple meal plans.
+
+
 
 
 
