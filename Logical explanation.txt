@@ -1,0 +1,36 @@
+This C++ program manages recipes using object-oriented programming. It defines four main classes: Ingredient, Recipe, User, and MealPlan.
+
+The Ingredient class stores the name and quantity of a single ingredient and has a method to display it.
+
+The Recipe class holds a recipe's title, list of ingredients (as Ingredient objects), and cooking instructions. It includes methods to add ingredients and display the recipe.
+
+The User class represents a user who can save multiple recipes and view them.
+
+The MealPlan class is defined to associate a recipe with a day, though it's not used in the main function.
+
+In the main() function:
+
+A User object named "Alice" is created.
+
+The user is asked how many recipes they want to add.
+
+For each recipe, the program prompts for:
+
+Title and instructions
+
+Number of ingredients
+
+Name and quantity of each ingredient
+
+The recipe is built and saved to Alice’s saved recipes list.
+
+After all recipes are entered, they are displayed back to the user.
+
+The program demonstrates class design, dynamic input handling with vectors, and simple user interaction through console input/output.
+
+
+
+
+
+
+
