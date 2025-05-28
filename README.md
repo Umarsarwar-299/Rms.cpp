@@ -92,27 +92,8 @@ This C++ program implements a simple **Recipe Management System** that allows a 
 
 ---
 
-## Suggestions for Improvement
 
-### 🔁 MealPlan Integration
-- Include creation and display of meal plans in `main()`
 
-### ⚠️ Error Handling
-- Add validation (e.g., numeric checks, `cin.fail()`)
-
-### 💾 Persistence
-- Implement file I/O for saving/loading recipes
-
-### 🍽️ Ingredient Class Enhancement
-- Separate fields for quantity and units
-
-### 🧭 UI Improvements
-- Add menu options (view, add, delete recipes)
-
-### 📂 Modularity
-- Split code into multiple files
-
----
 
 ## Key Features
 
